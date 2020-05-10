@@ -15,6 +15,7 @@ int main()
 
     
 } 
+
 //Función para los arreglos
 print(int a[],int n)
  { int i;
@@ -30,12 +31,12 @@ print(int a[],int n)
 int CopiarArreglo(){
     int a[1000],b[1000],i,n,c = 0;
    
-    printf("Tamaño del primer arreglo : ");
+    printf("Tamaño del arreglo : ");
     scanf("%d", &n);
     system("clear");
 
     for(i=0; i<n; i++)
-    {   printf("Ingresar elemento [%d]: ",i+1);
+    {   printf("Ingresar elemento [%d]: ", i+1);
         scanf("%d", &a[i]);
     }
  

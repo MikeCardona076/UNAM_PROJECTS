@@ -8,7 +8,10 @@ los elementos pares e impares, después, volver a mostrar el arreglo
 */
 
 int main(){
-    int numeroAleatorio[100]; //1 al 1000
+    //Declaramos array
+    int numeroAleatorio[100]; 
+    //Fin de declaración
+
     srand (time(NULL));
     for (int i=1; i<=100; i++) {
         numeroAleatorio[i] = rand()%1000;
